@@ -1,0 +1,175 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.A {
+    color: rgb(0, 166, 255);
+}
+
+.A.active {
+    color: rgb(71, 108, 187);
+}
+
+.A:hover {
+    color: rgb(92, 220, 255);
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+#playing, #teams, #support{
+    display: flow-root;
+}
+
+.left {
+    float: left;
+    margin-right: 3em;
+}
+
+.right {
+    float: right;
+}
+
+#vini, #anthem {
+    float: right;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+form div {
+    margin-bottom: 3em;
+    margin-left: 33em;
+    width: 300px;
+    text-align: center;
+}
+
+#h4 {
+    text-align: center;
+    background-color: #8e8e8e;
+}
+
+pre {
+    text-align: center;
+}
+
+.pagination {
+    text-align: center;
+}
+
+.pagination a{
+    color: rgb(0, 195, 255);
+    text-decoration: none;
+    padding: 8px 15px;
+    display: inline-block;
+}
+
+.pagination a.active{
+    background-color: black;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.pagination a:hover:not(.active){
+    background-color: #ffe2b9;
+    border-radius: 10px;
+}
+
+#Album {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(25, 12, 41);
+}
+.slider {
+    position: relative;
+    width: 60%;
+    overflow: hidden;
+}
+.images {
+    display: flex;
+    width: 100%;
+}
+.images img {
+    height: 400px;
+    width: 100%;
+    transition: all 0.15s ease;
+}
+.images input {
+    display: none;
+}
+.dots {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.dots label {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: solid #fff 3px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 5px;
+}
+.dots label:hover {
+    background-color: #fff;
+}
+#img1:checked ~ .m1 {
+    margin-left: 0;
+}
+#img2:checked ~ .m2 {
+    margin-left: -100%;
+}
+#img3:checked ~ .m3 {
+    margin-left: -200%;
+}
+#img4:checked ~ .m4 {
+    margin-left: -300%;
+}
+
+.login {
+    background-color: #ffffff;
+}

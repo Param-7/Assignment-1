@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="project1.css">
+</head>
+<body>
+    <header>
+        <h1> Login Clone</h1>
+    </header>
+    <br>
+    <form action="" class="login">
+        <div><label for="username">Username:</label>   
+        <input type="text" id="username" minlength="6" maxlength="15" required></div>
+
+        <div><label for="password">Password:</label>
+        <input type="password" id="password" minlength="6" maxlength="15" required></div>
+
+        <div><label for="email">Email:</label>
+        <input type="email" id="email" placeholder="youremail@gmail.com" required></div>
+
+        <div><label for="phone">Phone #:</label>
+        <input type="tel" id="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required></div>
+
+        <div><label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" required></div>
+
+        <div><label for="title">Title:</label>
+
+        <label for="Mr.">Mr.</label>
+        <input type="radio" id="Mr." value="Mr." name="title">
+        <label for="Ms.">Ms.</label>
+        <input type="radio" id="Ms." value="Ms." name="title">
+        <label for="Phd.">Phd.</label>
+        <input type="radio" id="Phd." value="Phd." name="title"></div>
+
+        <div><label for="subcribe">subcribe</label>
+        <input type="checkbox" id="subcribe"></div>
+
+        <div><label for="comment">comment</label>
+        <textarea id="comment" rows="3" cols="3"></textarea></div>
+        
+        <div><input type="reset">
+        <input type="submit"></div>
+    
+    </form>
+
+    <div class="pagination">
+        <a href="project1.html"><</a>
+        <a href="project1.html">1</a>
+        <a href="form.html" class="active">2</a>
+        <a href="album.html">3</a>
+        <a href="album.html">></a>
+    </div>
+    <footer>
+        <p>&copy; Login;. All rights reserved.</p>
+    </footer>
+</body>
+</html>
